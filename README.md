@@ -31,6 +31,14 @@ python run_all.py s04 s05         # re-run only some steps
 python tests/test_sanity.py       # sanity checks
 ```
 
+### Run on Google Colab (no installation)
+1. Upload `01 Introduction.xlsx`, `02 Field Production.xlsx` and `09 Template Deliverable.xlsx` to
+   `My Drive/DWC2026/data/` on Google Drive.
+2. Open [colab.research.google.com](https://colab.research.google.com), choose **File → Upload notebook**, and select
+   `notebooks/DWC_Colab_Runner.ipynb` from this repository.
+3. Run the cells from top to bottom (Shift + Enter). Each step explains what it does and what result to expect.
+   The results are saved to `My Drive/DWC2026/results_<date_time>/`.
+
 The grid workbooks (03–08) are large and are **not needed** by the model. Each case is fully defined by its four
 uncertainty parameters in `01_Introduction.xlsx`. To summarise them for EDA or slides, run this on a machine that has them:
 
