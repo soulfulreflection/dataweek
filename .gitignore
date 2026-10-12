@@ -1,0 +1,22 @@
+# Competition data is provided by ExxonMobil DataWorks and must not be published.
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*.xlsx
+
+# Power BI export copies the observed history -> regenerate locally with `python run_all.py s05`
+outputs/powerbi/*
